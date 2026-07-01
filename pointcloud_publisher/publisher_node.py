@@ -41,7 +41,7 @@ class PointCloudPublisher(Node):
         return msg
 
     def publish_pointcloud(self):
-        # 模拟一个室内场景点云（墙面 + 地板，约5000点）
+        # 模拟一个室内场景点云（墙面 + 地板，共4000点）
         np.random.seed(42)
 
         # 地板
