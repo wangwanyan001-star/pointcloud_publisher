@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = pointcloud_publisher.publisher_node:main
+subscriber = pointcloud_publisher.subscriber_node:main
+

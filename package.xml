@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pointcloud_publisher</name>
+  <version>0.0.1</version>
+  <description>Publish LAS point cloud as ROS2 PointCloud2 topic</description>
+  <maintainer email="test@test.com">wang</maintainer>
+  <license>MIT</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+</package>
